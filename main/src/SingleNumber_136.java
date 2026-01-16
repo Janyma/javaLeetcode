@@ -1,4 +1,4 @@
-public class SingleNumber {
+public class SingleNumber_136 {
 
     public int singleNumber(int[] nums) {
         int ans=0;
