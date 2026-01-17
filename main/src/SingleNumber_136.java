@@ -8,5 +8,4 @@ public class SingleNumber_136 {
         return ans;
 
         }
-
 }

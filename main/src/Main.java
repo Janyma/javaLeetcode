@@ -7,6 +7,12 @@ public class Main {
         int res = sol.singleNumber(a);
         System.out.println(res);
 
+        ReverseString_344 sol1=new ReverseString_344();
+        char[] b = {'h', 'e', 'l', 'l', 'o'};
+        sol1.reverseString(b);
+        System.out.println(b);
+
+
         }
 
 }
