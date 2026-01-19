@@ -12,6 +12,12 @@ public class Main {
         sol1.reverseString(b);
         System.out.println(b);
 
+        BuyStock_121 sol2=new BuyStock_121();
+        int[] c={4,1,5,4,3};
+        int res2=sol2.maxProfit(c);
+        System.out.println(res2);
+
+
 
         }
 
