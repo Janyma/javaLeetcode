@@ -16,6 +16,11 @@ public class Main {
         int[] c={4,1,5,4,3};
         int res2=sol2.maxProfit(c);
         System.out.println(res2);
+        ContainsDuplicate_217 sol3=new ContainsDuplicate_217();
+        int[] nums ={1,2,3,4,4};
+        boolean result = sol3.containsDuplicate(nums);
+        System.out.println("ContainsDuplicate_217: "+result);
+
 
 
 
