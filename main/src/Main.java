@@ -21,6 +21,11 @@ public class Main {
         boolean result = sol3.containsDuplicate(nums);
         System.out.println("ContainsDuplicate_217: "+result);
 
+        MajorityElement_169 sol4= new MajorityElement_169();
+        int[] d = {3,4,4,4,4,4,4,4,4,4,5,5,5,5,5,5,8,9};
+        int result4 = sol4.majorityElement(d);
+        System.out.println(result4);
+
 
 
 
