@@ -26,6 +26,12 @@ public class Main {
         int result4 = sol4.majorityElement(d);
         System.out.println(result4);
 
+        First_Unique_CharIn_String_387 sol5=new First_Unique_CharIn_String_387();
+        String s= "lleetcode";
+        int result5 = sol5.firstUniqChar(s);
+        System.out.println(result5);
+
+
 
 
 
