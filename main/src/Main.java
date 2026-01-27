@@ -31,6 +31,11 @@ public class Main {
         int result5 = sol5.firstUniqChar(s);
         System.out.println(result5);
 
+        RemoveDuplicatesSorted_26 sol6 = new RemoveDuplicatesSorted_26();
+        int[] e = {1,1,2,2,2,3};
+        int f=sol6.removeDuplicates(e);
+        System.out.println(f);
+
 
 
 
