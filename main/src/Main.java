@@ -36,6 +36,13 @@ public class Main {
         int f=sol6.removeDuplicates(e);
         System.out.println(f);
 
+        OneDArrayTotwoDArray_2022 sol7=new OneDArrayTotwoDArray_2022();
+        int[] original={1,2};
+        int m=1;
+        int n=1;
+        int [][] g_= sol7.construct2DArray(original,m,n);
+        System.out.println(g_);
+
 
 
 
