@@ -1,16 +1,29 @@
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 public class FindNumbersDisappeardinArr_448 {
-    public int findDisappearedNumbers(int[] nums){
-        Arrays.sort(nums);
-        for(int i=0; i<nums.length; i++){
-            if(nums[i]==nums[i]+1){
-                return 0;
+    public List<Integer> findDisappearedNumbers(int[] nums){
+        HashMap<Integer, Integer> a = new HashMap<>();
+        List<Integer> missing= new ArrayList<>();
+
+        int len_=nums.length;
+        for(int i=0; i<len_; i++){
+            if(a.containsKey(nums[i])){
+                continue;
+
+            }else{
+                a.put(nums[i], 1);
             }
+
+
         }
-        return 0;
+        int index=1;
+        for(int key: a.keySet()){
+            if (key==index){
+                index++;
+            }
+
+        }
+        return missing;
 
     }
 }
