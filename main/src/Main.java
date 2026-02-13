@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {//TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
@@ -43,10 +45,18 @@ public class Main {
         int [][] g_= sol7.construct2DArray(original,m,n);
         System.out.println(g_);
 
+        MatrixMultiple2D sol8 = new MatrixMultiple2D();
+        int[][]a1 = {{1,2,3},{3,4,5}};
+        int[][]b1 = {{1,2},{3,4}, {3,4}};
+        int [][] sol7_ = MatrixMultiple2D.maxtrixMultiple(a1,b1);
+        System.out.println(Arrays.deepToString(sol7_));
 
 
 
 
-        }
+
+
+
+    }
 
 }
