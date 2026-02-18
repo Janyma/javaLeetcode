@@ -51,6 +51,13 @@ public class Main {
         int [][] sol7_ = MatrixMultiple2D.maxtrixMultiple(a1,b1);
         System.out.println(Arrays.deepToString(sol7_));
 
+        AddBinary_67 sol9 = new AddBinary_67();
+        String aa= "11";
+        String bb ="1";
+        String cc= sol9.addBinary(aa, bb);
+        System.out.println(cc);
+
+
 
 
 
