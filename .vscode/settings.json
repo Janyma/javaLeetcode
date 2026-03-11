@@ -1,0 +1,6 @@
+{
+  // Deaktiviere Copilot Inline-Vorschläge
+  "github.copilot.inlineSuggest.enable": false,
+  // Optional: deaktiviere allgemeine Inline-Suggestions (wirkt auf alle Extensions)
+  "editor.inlineSuggest.enabled": false
+}
