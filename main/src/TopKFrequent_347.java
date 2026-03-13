@@ -11,13 +11,9 @@ class TopKFrequent_347 {
         for(int num: nums ){
             frquence.put(num, frquence.getOrDefault(num, 0)+1);
         }
-        List<Pair<Integer, Integer>>  new_pairs= new ArrayList<>();
 
-        for(var entry: frquence.entrySet()){
-            Pair<Integer, Integer> a = new Pair<>(entry.getKey(), entry.getValue());
-            new_pairs.add(a);
+        List<Map.Entry<Integer, Integer>> new_pairs = new ArrayList<>(frquence.entrySet());
 
-        }
 
         Collections.sort(new_pairs, (fc1, fc2)->{
             return fc2.getValue()-fc1.getValue();
