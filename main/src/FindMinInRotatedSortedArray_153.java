@@ -4,6 +4,9 @@ class FindMinInRotatedSortedArray_153 {
         if( n==0){
             return -1;
         }
+        if(n==1){
+            return nums[0];
+        }
         if(nums[0]<nums[n-1]){
             return nums[0];
         }
