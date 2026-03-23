@@ -1,3 +1,6 @@
+
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {//TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
         // to see h IntelliJ IDEA suggests fixing it.
@@ -59,6 +62,11 @@ public class Main {
         int days=5;
         int capacity=sol10.shipWithinDays(weights, days);
         System.out.println("Ship: "+capacity);
+
+        Permutations_46 sol12 = new Permutations_46();
+        int[] nums={1,2,3};
+        List<List<Integer>> a= sol12.permute(nums);
+        System.out.println("Permutations"+a);
 
 
 
