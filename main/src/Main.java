@@ -68,6 +68,10 @@ public class Main {
         List<List<Integer>> a= sol12.permute(nums);
         System.out.println("Permutations"+a);
 
+        HanoiProblem sol_13= new HanoiProblem();
+        sol_13.hanoi(4, 1, 3);
+
+
 
 
 
