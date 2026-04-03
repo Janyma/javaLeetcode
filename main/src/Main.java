@@ -71,6 +71,10 @@ public class Main {
         HanoiProblem sol_13= new HanoiProblem();
         sol_13.hanoi(4, 1, 3);
 
+        GenerateParentheses_22 sol_14= new GenerateParentheses_22();
+        int n_=3;
+        sol_14.generateParenthesis(n_);
+
 
 
 
